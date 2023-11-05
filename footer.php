@@ -291,6 +291,11 @@
     </div>
 </div>
 
+<?php
+    $script_url = esc_url(get_template_directory_uri() . '/public/about/js/smush-lazy-load.min.js');
+?>
+<script src="<?php echo $script_url; ?>"></script>
+
 <?php wp_footer(); ?>
 </body> <!-- end body -->
 
