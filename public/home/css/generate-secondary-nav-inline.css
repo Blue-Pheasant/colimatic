@@ -1,0 +1,99 @@
+.secondary-navigation {
+    background-color: rgba(99, 99, 99, 0);
+}
+
+.secondary-navigation .main-nav ul li a,
+.secondary-navigation .menu-toggle,
+.secondary-menu-bar-items .menu-bar-item>a {
+    color: #3a3a3a;
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 50px;
+}
+
+.secondary-navigation .secondary-menu-bar-items {
+    color: #3a3a3a;
+    font-size: 16px;
+}
+
+button.secondary-menu-toggle:hover,
+button.secondary-menu-toggle:focus {
+    color: #3a3a3a;
+}
+
+.widget-area .secondary-navigation {
+    margin-bottom: 0px;
+}
+
+.secondary-navigation ul ul {
+    background-color: rgba(48, 48, 48, 0);
+    top: auto;
+}
+
+.secondary-navigation .main-nav ul ul li a {
+    color: #4b4747;
+    font-size: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.secondary-navigation .menu-item-has-children .dropdown-menu-toggle {
+    padding-right: 0px;
+}
+
+.secondary-navigation .main-nav ul li:hover>a,
+.secondary-navigation .main-nav ul li:focus>a,
+.secondary-navigation .main-nav ul li.sfHover>a,
+.secondary-menu-bar-items .menu-bar-item:hover>a {
+    color: #4b4747;
+    background-color: rgba(48, 48, 48, 0);
+}
+
+.secondary-navigation .main-nav ul ul li:hover>a,
+.secondary-navigation .main-nav ul ul li:focus>a,
+.secondary-navigation .main-nav ul ul li.sfHover>a {
+    color: #4b4747;
+    background-color: rgba(71, 71, 71, 0);
+}
+
+.secondary-navigation .main-nav ul li[class*="current-menu-"]>a,
+.secondary-navigation .main-nav ul li[class*="current-menu-"]>a:hover,
+.secondary-navigation .main-nav ul li[class*="current-menu-"].sfHover>a {
+    color: #4b4747;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.secondary-navigation .main-nav ul ul li[class*="current-menu-"]>a,
+.secondary-navigation .main-nav ul ul li[class*="current-menu-"]>a:hover,
+.secondary-navigation .main-nav ul ul li[class*="current-menu-"].sfHover>a {
+    color: #4b4747;
+    background-color: rgba(71, 71, 71, 0);
+}
+
+.no-js img.lazyload {
+    display: none;
+}
+
+figure.wp-block-image img.lazyloading {
+    min-width: 150px;
+}
+
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 0ms;
+}
+
+@media (max-width: 768px) {
+    .secondary-menu-bar-items .menu-bar-item:hover>a {
+        background: none;
+        color: #3a3a3a;
+    }
+}
+

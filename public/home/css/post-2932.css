@@ -1,0 +1,139 @@
+.elementor-2932 .elementor-element.elementor-element-7da77ad {
+    --divider-border-style: solid;
+    --divider-color: #FF0000;
+    --divider-border-width: 2.2px;
+}
+
+.elementor-2932 .elementor-element.elementor-element-7da77ad .elementor-divider-separator {
+    width: 80%;
+    margin: 0 auto;
+    margin-center: 0;
+}
+
+.elementor-2932 .elementor-element.elementor-element-7da77ad .elementor-divider {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.elementor-2932 .elementor-element.elementor-element-3a5ad56 {
+    text-align: center;
+}
+
+.elementor-2932 .elementor-element.elementor-element-3a5ad56>.elementor-widget-container {
+    margin: 10px 0px 0px 0px;
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288 .elementor-posts-container .elementor-post__thumbnail {
+    padding-bottom: calc(0.98 * 100%);
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288:after {
+    content: "0.98";
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288 .elementor-post__meta-data span+span:before {
+    content: "•";
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288 {
+    --grid-column-gap: 0px;
+    --grid-row-gap: 53px;
+    width: 100vw;
+    max-width: 100vw;
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288 .elementor-post__card {
+    border-color: #D3D3D3;
+    border-width: 0px;
+    border-radius: 0px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288 .elementor-post__text {
+    padding: 0 31px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288 .elementor-post__meta-data {
+    padding: 10px 31px;
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288 .elementor-post__avatar {
+    padding-right: 31px;
+    padding-left: 31px;
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288 .elementor-post__thumbnail img {
+    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288 .elementor-post__badge {
+    right: 0;
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288 .elementor-post__card .elementor-post__badge {
+    border-radius: 0px;
+    font-size: 22px;
+    margin: 28px;
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288 .elementor-post__title,
+.elementor-2932 .elementor-element.elementor-element-ead1288 .elementor-post__title a {
+    color: #FF0000;
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288 .elementor-post__read-more {
+    color: #696969;
+    margin-bottom: 12px;
+}
+
+.elementor-2932 .elementor-element.elementor-element-ead1288>.elementor-widget-container {
+    margin: 0px 0px 51px 0px;
+    background-color: #E91E1E00;
+    background-image: url("https://www.colimatic.com/wp-content/uploads/2023/05/1681984126493.jpeg");
+    background-position: 596px 0px;
+    background-repeat: no-repeat;
+    background-size: 53% auto;
+}
+
+.elementor-2932 .elementor-element.elementor-element-347f477 {
+    --divider-border-style: solid;
+    --divider-color: #FF0000;
+    --divider-border-width: 2.2px;
+}
+
+.elementor-2932 .elementor-element.elementor-element-347f477 .elementor-divider-separator {
+    width: 80%;
+    margin: 0 auto;
+    margin-center: 0;
+}
+
+.elementor-2932 .elementor-element.elementor-element-347f477 .elementor-divider {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media(max-width:767px) {
+    .elementor-2932 .elementor-element.elementor-element-ead1288 .elementor-posts-container .elementor-post__thumbnail {
+        padding-bottom: calc(0.5 * 100%);
+    }
+
+    .elementor-2932 .elementor-element.elementor-element-ead1288:after {
+        content: "0.5";
+    }
+}
+
+/* Start custom CSS */
+.inside-page-hero.grid-container.grid-parent {
+    display: none !important;
+}
+
+.html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-fit-cover-video ytp-title-enable-channel-logo ytp-embed ytp-embed-playlist ytp-large-width-mode ytp-pause-overlay-controls-hidden playing-mode ytp-autohide {
+    height: 800px;
+}
+
+/* End custom CSS */
