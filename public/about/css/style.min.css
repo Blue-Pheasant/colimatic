@@ -962,7 +962,8 @@ h6.has-background {
 }
 
 .wp-block-image {
-  margin-bottom: 1em
+  margin-bottom: 1em;
+  margin-top: 2em;
 }
 
 .wp-block-image img {
