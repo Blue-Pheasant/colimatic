@@ -113,41 +113,51 @@
                 <!-- .inside-navigation -->
             </nav>
             <!-- #secondary-navigation -->
-            <header id="masthead" class="site-header" itemtype="https://schema.org/WPHeader" itemscope>
+            <header id="masthead" class="site-header" itemtype="https://schema.org/WPHeader" itemscope="">
                 <div class="inside-header grid-container grid-parent">
                     <div class="site-logo">
-                        <a href="https://www.colimatic.com/en/" title="Colimatic" rel="home">
-                            <img alt="Colimatic" title="Colimatic"
+                        <a href="<?php echo home_url(); ?>" title="Colimatic" rel="home">
+                            <img 
+                                alt="Colimatic" 
+                                title="Colimatic"
                                 data-srcset="https://www.colimatic.com/wp-content/uploads/2020/11/1Logo-Colimatic-Coligroup-219x66-1.png 1x, https://www.colimatic.com/wp-content/uploads/2018/12/colimatic-retina-logo.png 2x"
-                                width="219" height="66"
+                                width="219" 
+                                height="66"
                                 data-src="https://www.colimatic.com/wp-content/uploads/2020/11/1Logo-Colimatic-Coligroup-219x66-1.png"
-                                class="header-image is-logo-image lazyload"
-                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+                                class="header-image is-logo-image lazyloaded"
+                                src="./Contacts - Colimatic automatic packaging lines, traysealers,_files/1Logo-Colimatic-Coligroup-219x66-1.png"
+                                srcset="https://www.colimatic.com/wp-content/uploads/2020/11/1Logo-Colimatic-Coligroup-219x66-1.png 1x, https://www.colimatic.com/wp-content/uploads/2018/12/colimatic-retina-logo.png 2x">
                             <noscript>
-                                <img class="header-image is-logo-image" alt="Colimatic"
+                                <img
+                                    class="header-image is-logo-image" 
+                                    alt="Colimatic"
                                     src="https://www.colimatic.com/wp-content/uploads/2020/11/1Logo-Colimatic-Coligroup-219x66-1.png"
                                     title="Colimatic"
                                     srcset="https://www.colimatic.com/wp-content/uploads/2020/11/1Logo-Colimatic-Coligroup-219x66-1.png 1x, https://www.colimatic.com/wp-content/uploads/2018/12/colimatic-retina-logo.png 2x"
-                                    width="219" height="66" />
+                                    width="219"
+                                    height="66" 
+                                />
                             </noscript>
                         </a>
                     </div>
                     <nav id="site-navigation" class="main-navigation sub-menu-right"
-                        itemtype="https://schema.org/SiteNavigationElement" itemscope>
+                        itemtype="https://schema.org/SiteNavigationElement" itemscope="">
                         <div class="inside-navigation">
                             <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-                            <span class="mobile-menu">Menu</span>
-                            </button>
+                            <span class="mobile-menu">Menu</span> </button>
                             <div id="primary-menu" class="main-nav">
                                 <ul id="menu-main-menu-inglese" class=" menu sf-menu">
-                                    <li id="menu-item-2971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2932 current_page_item menu-item-2971">
-                                        <a href="<?php echo home_url(); ?>" aria-current="page">Home</a>
+                                    <li id="menu-item-2971"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2971">
+                                        <a href="<?php echo home_url(); ?>">Home</a>
                                     </li>
-                                    <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
-                                        <a href="<?php echo get_permalink(get_page_by_path('about-us')); ?>">About Us</a>
-                                    </li>
-                                    <li id="menu-item-2975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2975">
-                                        <a href="<?php echo get_permalink(get_page_by_path('contact')); ?>">Contacts</a>
+                                    <li id="menu-item-2972"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
+                                        <a
+                                        href="<?php echo get_permalink(get_page_by_path('about-us')); ?>">About Us</a></li>
+                                    <li id="menu-item-2975"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2951 current_page_item menu-item-2975">
+                                        <a href="<?php echo get_permalink(get_page_by_path('contact')); ?>" aria-current="page">Contacts</a>
                                     </li>
                                 </ul>
                             </div>
