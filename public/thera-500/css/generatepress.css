@@ -46,8 +46,7 @@
 # Elements
 --------------------------------------------------------------*/
 
-@import url("http://use.typekit.net/quo2vrl.css");
-
+@import url("//use.typekit.net/quo2vrl.css");
 body {
     overflow-x: hidden;
     /*fix .alignfull horizontal scroll*/
@@ -61,7 +60,6 @@ h2:not(.widget-title).page-subtitle {
 }
 
 @media (min-width: 769px) {
-
     h2:not(.widget-title).page-subtitle:before,
     h2:not(.widget-title).page-subtitle:after {
         background-color: #ea2427;
@@ -72,12 +70,10 @@ h2:not(.widget-title).page-subtitle {
         vertical-align: middle;
         width: 50%;
     }
-
     h2:not(.widget-title).page-subtitle:before {
         right: 0.5em;
         margin-left: -50%;
     }
-
     h2:not(.widget-title).page-subtitle:after {
         left: 0.5em;
         margin-right: -50%;
@@ -245,19 +241,16 @@ h3 {
     .secondary-menu li:nth-child(-n+3) {
         display: none !important;
     }
-
     .secondary-navigation .menu-toggle,
     .secondary-navigation.toggled .main-nav>ul {
         display: none !important;
     }
-
     .secondary-navigation ul,
     .secondary-navigation ul li:hover>ul,
     .secondary-menu .sf-menu li:hover>ul,
     .secondary-menu .sf-menu li.sfHover>ul {
         display: block !important;
     }
-
     .secondary-menu .sf-menu>li {
         float: left;
         clear: none;
@@ -304,12 +297,10 @@ h3 {
 }
 
 @media screen and (min-width: 1000px) {
-
     .pill--big .wp-block-column:last-child h4,
     .pill--big .wp-block-column:last-child p {
         padding: 0 500px 0 0;
     }
-
     .pill--big .wp-block-column:first-child h4,
     .pill--big .wp-block-column:first-child p {
         padding: 0 0 0 500px;
@@ -335,7 +326,6 @@ h3 {
     .grid-list__item {
         width: 49%;
     }
-
     .grid-list__item:nth-child(odd) {
         margin-right: 2%;
     }
@@ -345,11 +335,9 @@ h3 {
     .grid-list__item:nth-child(odd) {
         margin-right: 0%;
     }
-
     .grid-list__item:not(:nth-child(3n)) {
         margin-right: 2%;
     }
-
     .grid-list__item {
         width: 32%;
     }
@@ -390,7 +378,6 @@ h3 {
 /* pluck */
 
 @media (max-width: 768px) {
-
     .pluck,
     .wp-block-media-text {
         display: block;
@@ -440,17 +427,14 @@ h3 {
     .pluck {
         grid-template-areas: "media-text-content media-text-media" !important;
     }
-
     .pluck .pluck__body--end {
         align-items: flex-end !important;
         text-align: right;
     }
-
     .pluck .pluck__body--start {
         align-items: flex-start !important;
         text-align: left;
     }
-
     .pluck .wp-block-media-text__media img {
         width: 60%;
         -webkit-transition: transform 0.3s;
@@ -461,7 +445,6 @@ h3 {
         width: 100%;
         min-height: 230px;
     }
-
     .pluck:hover .wp-block-media-text__media img {
         -ms-transform: scale(1.1);
         -webkit-transform: scale(1.1);
@@ -470,7 +453,6 @@ h3 {
 }
 
 @media (max-width: 768px) {
-
     .pluck .wp-block-media-text__content,
     .wp-block-media-text__content {
         display: flex !important;
@@ -478,12 +460,10 @@ h3 {
         justify-content: center !important;
         flex-direction: column;
     }
-
     .wp-block-media-text__content h4,
     .wp-block-media-text__content h3 {
         text-align: center !important;
     }
-
     .wp-block-media-text__content p {
         text-align: justify !important;
     }
@@ -537,17 +517,14 @@ h3 {
     .inside-page-hero__box:after {
         width: 25px;
     }
-
     .page-hero {
         min-height: 110px;
     }
-
     .inside-page-hero__box {
         height: 110px;
         min-height: 110px;
         padding: 0 30px;
     }
-
     .inside-page-hero__box h1 {
         margin: 0;
         font-size: 25px;
@@ -619,7 +596,6 @@ h3 {
     .tax-typology .features>div {
         margin: 0px 10px;
     }
-
     .typologies-list {
         padding-bottom: 40px;
     }
@@ -792,16 +768,13 @@ h3 {
     .single-machine .trays__image img {
         width: 100%;
     }
-
     .single-machine .trays {
         width: fit-content;
     }
-
     .single-machine .trays__item {
         display: flex;
         justify-content: space-between;
     }
-
     .single-machine .trays__item .trays__model {
         width: 130px;
         border-top: none;
@@ -812,11 +785,9 @@ h3 {
         align-items: center;
         justify-content: center;
     }
-
     .single-machine .trays__image:not(:last-child) {
         border-right: none;
     }
-
     .single-machine .trays__image:last-child {
         border-bottom: solid 1px #3c3c3b;
     }
@@ -826,29 +797,23 @@ h3 {
     .single-machine .trays__image:not(:last-child) {
         border-bottom: solid 1px #3c3c3b;
     }
-
     .single-machine .trays__item .trays__model {
         width: 30% !important;
     }
-
     .single-machine .trays .trays__list:last-child .trays__item .trays__model,
     .single-machine .trays .trays__list:last-child .trays__image:nth-child(-n+1) {
         border-bottom: solid 1px #3c3c3b !important;
     }
-
     .single-machine .trays__item .trays__image {
         width: 24.8%;
     }
-
     .single-machine .trays__image {
         padding: 0;
     }
-
     .single-machine .trays__image img {
         width: 130px;
         padding: 10px;
     }
-
     /* .single-machine .trays__item {
       flex-wrap: wrap;
   } */
@@ -873,25 +838,20 @@ h3 {
     .single-machine .features .grid-list__item {
         width: 23.5%;
     }
-
     .single-machine .features .grid-list__item:not(:nth-child(3n)) {
         margin-right: 0%;
     }
-
     .single-machine .features .grid-list__item:not(:nth-child(4n)) {
         margin-right: 2%;
     }
-
     .single-machine .peculiarity .grid-list__item {
         width: 9%;
         margin-top: 0;
         margin-bottom: 4rem;
     }
-
     .single-machine .peculiarity .grid-list__item {
         margin-right: 1%;
     }
-
     .single-machine .trays__image {
         width: 110px;
     }
@@ -901,11 +861,9 @@ h3 {
     .single-machine .features .grid-list__item:nth-child(-n+5) {
         margin-top: 0;
     }
-
     .single-machine .features .grid-list__item:nth-child(n+3) {
         margin-top: 2rem;
     }
-
     .single-machine .peculiarity .grid-list__item {
         width: 12%;
         margin-top: 0;
@@ -918,7 +876,6 @@ h3 {
     .single-machine .features .grid-list__item:nth-child(-n+5) {
         margin-top: 0;
     }
-
     .single-machine .features .grid-list__item:nth-child(n+5) {
         margin-top: 2rem;
     }
@@ -929,18 +886,15 @@ h3 {
         width: 100%;
         margin-top: 2%;
     }
-
     .single-machine .features .grid-list__item:first-child {
         margin-top: 0;
     }
-
     .single-machine .peculiarity .grid-list__item {
         width: 24%;
         margin-top: 0;
         margin-bottom: 2rem;
         margin-right: 1%;
     }
-
     .single-machine .peculiarity .grid-list,
     .single-machine .features .grid-list {
         display: flex;
@@ -1037,11 +991,9 @@ h3 {
     .single-machine .sostenibilita__content {
         flex-wrap: nowrap;
     }
-
     .single-machine .sostenibilita__item:last-child {
         margin-top: 0;
     }
-
     .single-machine .sostenibilita .sostenibilita__item {
         width: 50%;
     }
@@ -1066,7 +1018,6 @@ h3 {
     .spec>div:nth-child(n+3) {
         margin-top: 0;
     }
-
     .spec>div:nth-child(n+4) {
         margin-top: 40px !important;
     }
@@ -1082,7 +1033,6 @@ h3 {
     .spec>div {
         flex: 1 44%;
     }
-
     .spec-performance {
         margin-right: 40px;
     }
@@ -1112,7 +1062,6 @@ h3 {
         -moz-column-count: 2;
         column-count: 2;
     }
-
     .optionals-list__body {
         max-height: 310px;
         max-width: 770px;
@@ -1221,7 +1170,6 @@ h3 {
     .single-machine .cf div:not(.cf-message):not(.cf-submit) {
         width: 49.5%;
     }
-
     .single-machine .cf .cf-name,
     .single-machine .cf .cf-email {
         margin-right: 1%;
@@ -1380,7 +1328,6 @@ h3 {
         width: 100%;
         padding-bottom: 30px;
     }
-
     #side-links>div {
         -moz-flex: 1;
         -ms-flex: 1;
@@ -1389,12 +1336,10 @@ h3 {
         flex: 1;
         float: none;
     }
-
     #side-links .st-total {
         background: #fff;
         padding: 6px 8px;
     }
-
     #side-links .st-btn {
         -moz-border-radius: 0 !important;
         -webkit-border-radius: 0 !important;
@@ -1445,7 +1390,6 @@ h3 {
     .sectors-section .wp-block-column {
         flex-basis: calc(50% - 4px);
     }
-
     .sectors-section .wp-block-button__link img {
         filter: gray;
         /* IE6-9 */
@@ -1717,13 +1661,11 @@ ul.tabs li.active:after {
     ul.tabs {
         display: none;
     }
-
     .tab_container {
         display: block;
         margin: 0 auto;
         width: 95%;
     }
-
     .tab_drawer_heading {
         margin: 0;
         padding: 5px 20px;
@@ -2106,7 +2048,6 @@ ul.events-years li.active span {
         order: 2;
         height: 300px;
     }
-
     .contact-section .pill__body {
         text-align: center;
     }
@@ -2187,7 +2128,6 @@ ul.events-years li.active span {
 }
 
 @media (min-width: 1025px) {
-
     .footer-widget-1,
     .footer-widget-2,
     .footer-widget-3 {
@@ -2205,7 +2145,6 @@ ul.events-years li.active span {
         -webkit-flex-flow: row wrap;
         flex-flow: row wrap;
     }
-
     .footer-widget-1 {
         -webkit-box-ordinal-group: 3;
         -moz-box-ordinal-group: 3;
@@ -2213,7 +2152,6 @@ ul.events-years li.active span {
         -webkit-order: 3;
         order: 3;
     }
-
     .footer-widget-2 {
         -webkit-box-ordinal-group: 4;
         -moz-box-ordinal-group: 4;
@@ -2221,7 +2159,6 @@ ul.events-years li.active span {
         -webkit-order: 4;
         order: 4;
     }
-
     .footer-widget-3 {
         -webkit-box-ordinal-group: 2;
         -moz-box-ordinal-group: 2;
@@ -2229,7 +2166,6 @@ ul.events-years li.active span {
         -webkit-order: 2;
         order: 2;
     }
-
     .footer-widget-4 {
         -webkit-box-ordinal-group: 1;
         -moz-box-ordinal-group: 1;
@@ -2368,7 +2304,6 @@ ul.events-years li.active span {
     .cookielawinfo-classic {
         min-width: 700px;
     }
-
     .cookie-audit-container {
         overflow-x: scroll;
     }
