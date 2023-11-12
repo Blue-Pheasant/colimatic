@@ -47,9 +47,27 @@
             <meta name="msapplication-TileImage"
                 content="https://www.colimatic.com/wp-content/uploads/2018/12/colimatic-favicon-300x300.png" />
         </head>
-        <body
-            class="home page-template page-template-elementor_header_footer page page-id-2932 wp-custom-logo wp-embed-responsive post-image-aligned-center secondary-nav-above-header secondary-nav-aligned-right sticky-menu-fade no-sidebar nav-float-right one-container fluid-header active-footer-widgets-4 header-aligned-left dropdown-hover elementor-default elementor-template-full-width elementor-kit-4215 elementor-page elementor-page-2932 full-width-content"
-            itemtype="https://schema.org/WebPage" itemscope>
+        <?php
+            $default_class = "home page-template page-template-elementor_header_footer page page-id-2932 wp-custom-logo wp-embed-responsive post-image-aligned-center secondary-nav-above-header secondary-nav-aligned-right sticky-menu-fade no-sidebar nav-float-right one-container fluid-header active-footer-widgets-4 header-aligned-left dropdown-hover elementor-default elementor-template-full-width elementor-kit-4215 elementor-page elementor-page-2932 full-width-content";
+            $product_class = "machine-template-default single single-machine postid-2948 wp-custom-logo wp-embed-responsive post-image-above-header post-image-aligned-center secondary-nav-above-header secondary-nav-aligned-right sticky-menu-fade no-sidebar nav-float-right one-container fluid-header active-footer-widgets-4 header-aligned-left dropdown-hover featured-image-active elementor-default elementor-kit-4215";
+            $apply_class = $default_class;
+
+            global $post;
+            $page_slug = $post->post_name;
+
+            switch ($page_slug) {
+                case 'thera-500':
+                    $apply_class = $product_class;
+                    break;
+                case 'thera-650':
+                    $apply_class = $product_class;
+                    break;
+                default:
+                    $apply_class = $default_class;
+                    break;
+            }
+        ?>
+        <body class="<?php echo $apply_class ?>" itemtype="https://schema.org/WebPage" itemscope>
             <a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>
             <nav id="secondary-navigation" class="secondary-navigation" itemtype="https://schema.org/SiteNavigationElement"
                 itemscope="itemscope">
