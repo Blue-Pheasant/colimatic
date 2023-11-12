@@ -56,7 +56,7 @@ get_header();
                                           <h2 class="has-text-align-center page-subtitle alignfull">PACKAGING SOLUTIONS</h2>
                                           <div class="soluzioni-confezionamento plucks alignfull">
                                              <div class="plucks__item">
-                                                <a href="https://www.colimatic.com/en/machinery-range/thermoforming-machines/">
+                                                <a href="<?php echo get_permalink(get_page_by_path('home/thera-650')); ?>">
                                                    <div class="pluck align--right wp-block-media-text has-media-on-the-right">
                                                       <figure class="pluck__image wp-block-media-text__media">
                                                          <img alt="" data-src="https://www.colimatic.com/wp-content/uploads/2019/05/termoformatrici-768x199.png" class=" ls-is-cached lazyloaded" src="https://www.colimatic.com/wp-content/uploads/2019/05/termoformatrici-768x199.png">
