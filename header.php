@@ -50,6 +50,7 @@
         <?php
             $default_class = "home page-template page-template-elementor_header_footer page page-id-2932 wp-custom-logo wp-embed-responsive post-image-aligned-center secondary-nav-above-header secondary-nav-aligned-right sticky-menu-fade no-sidebar nav-float-right one-container fluid-header active-footer-widgets-4 header-aligned-left dropdown-hover elementor-default elementor-template-full-width elementor-kit-4215 elementor-page elementor-page-2932 full-width-content";
             $product_class = "machine-template-default single single-machine postid-2948 wp-custom-logo wp-embed-responsive post-image-above-header post-image-aligned-center secondary-nav-above-header secondary-nav-aligned-right sticky-menu-fade no-sidebar nav-float-right one-container fluid-header active-footer-widgets-4 header-aligned-left dropdown-hover featured-image-active elementor-default elementor-kit-4215";
+            $suitainable_packaging = "archive tax-typology term-sustainable-packaging term-193 wp-custom-logo wp-embed-responsive post-image-below-header post-image-aligned-center infinite-scroll secondary-nav-above-header secondary-nav-aligned-right sticky-menu-fade no-sidebar nav-float-right one-container fluid-header active-footer-widgets-4 header-aligned-left dropdown-hover elementor-default elementor-template-full-width elementor-kit-4215 elementor-page-4645 full-width-content";
             $apply_class = $default_class;
 
             global $post;
@@ -73,6 +74,9 @@
                     break;
                 case 'tdf-1000':
                     $apply_class = $product_class;
+                    break;
+                case 'sustainable-packaging':
+                    $apply_class = $suitainable_packaging;
                     break;
                 default:
                     $apply_class = $default_class;
