@@ -65,6 +65,15 @@
                 case 'omega-800':
                     $apply_class = $product_class;
                     break;
+                case 'ready-meals-lasagna':
+                    $apply_class = $product_class;
+                    break;
+                case 'surgical-set':
+                    $apply_class = $product_class;
+                    break;
+                case 'tdf-1000':
+                    $apply_class = $product_class;
+                    break;
                 default:
                     $apply_class = $default_class;
                     break;
