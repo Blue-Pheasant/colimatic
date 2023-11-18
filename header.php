@@ -62,6 +62,9 @@
                 case 'thera-650':
                     $apply_class = $product_class;
                     break;
+                case 'omega-800':
+                    $apply_class = $product_class;
+                    break;
                 default:
                     $apply_class = $default_class;
                     break;
