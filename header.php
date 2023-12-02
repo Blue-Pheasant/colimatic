@@ -51,6 +51,7 @@
             $default_class = "home page-template page-template-elementor_header_footer page page-id-2932 wp-custom-logo wp-embed-responsive post-image-aligned-center secondary-nav-above-header secondary-nav-aligned-right sticky-menu-fade no-sidebar nav-float-right one-container fluid-header active-footer-widgets-4 header-aligned-left dropdown-hover elementor-default elementor-template-full-width elementor-kit-4215 elementor-page elementor-page-2932 full-width-content";
             $product_class = "machine-template-default single single-machine postid-2948 wp-custom-logo wp-embed-responsive post-image-above-header post-image-aligned-center secondary-nav-above-header secondary-nav-aligned-right sticky-menu-fade no-sidebar nav-float-right one-container fluid-header active-footer-widgets-4 header-aligned-left dropdown-hover featured-image-active elementor-default elementor-kit-4215";
             $suitainable_packaging = "archive tax-typology term-sustainable-packaging term-193 wp-custom-logo wp-embed-responsive post-image-below-header post-image-aligned-center infinite-scroll secondary-nav-above-header secondary-nav-aligned-right sticky-menu-fade no-sidebar nav-float-right one-container fluid-header active-footer-widgets-4 header-aligned-left dropdown-hover elementor-default elementor-template-full-width elementor-kit-4215 elementor-page-4645 full-width-content";
+            $packing_solutions = "page-template page-template-archive-machine page-template-archive-machine-php page page-id-3001 wp-custom-logo wp-embed-responsive post-image-aligned-center secondary-nav-above-header secondary-nav-aligned-right sticky-menu-fade no-sidebar nav-float-right one-container fluid-header active-footer-widgets-4 header-aligned-left dropdown-hover featured-image-active elementor-default elementor-kit-4215 using-mouse";
             $apply_class = $default_class;
 
             global $post;
@@ -75,8 +76,23 @@
                 case 'tdf-1000':
                     $apply_class = $product_class;
                     break;
+                case 'cook-in':
+                    $apply_class = $product_class;
+                    break;
+                case 'tdf-1650-1900':
+                    $apply_class = $product_class;
+                    break;
+                case 'skin-en':
+                    $apply_class = $product_class;
+                    break;
+                case 'thermoforming-suture':
+                    $apply_class = $product_class;
+                    break;
                 case 'sustainable-packaging':
                     $apply_class = $suitainable_packaging;
+                    break;
+                case 'packaging-solutions': 
+                    $apply_class = $packing_solutions;
                     break;
                 default:
                     $apply_class = $default_class;
@@ -185,13 +201,23 @@
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2971">
                                         <a href="<?php echo home_url(); ?>">Home</a>
                                     </li>
-                                    <li id="menu-item-2972"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
-                                        <a
-                                        href="<?php echo get_permalink(get_page_by_path('about-us')); ?>">About Us</a></li>
-                                    <li id="menu-item-2975"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2951 current_page_item menu-item-2975">
-                                        <a href="<?php echo get_permalink(get_page_by_path('contact')); ?>" aria-current="page">Contacts</a>
+                                    <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
+                                        <a href="<?php echo get_permalink(get_page_by_path('packaging-solutions')); ?>">Colimatic</a>
+                                    </li>
+                                    <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
+                                        <a href="<?php echo get_permalink(get_page_by_path('packaging-solutions')); ?>">Leepack</a>
+                                    </li>
+                                    <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
+                                        <a  href="<?php echo get_permalink(get_page_by_path('packaging-solutions')); ?>">Italian pack</a>
+                                    </li>
+                                    <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
+                                        <a  href="<?php echo get_permalink(get_page_by_path('packaging-solutions')); ?>">Processing Machine</a>
+                                    </li>
+                                    <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
+                                        <a  href="<?php echo get_permalink(get_page_by_path('packaging-solutions')); ?>">Inspection</a>
+                                    </li>
+                                    <li id="menu-item-2975" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2951 current_page_item menu-item-2975">
+                                        <a href="<?php echo get_permalink(get_page_by_path('contact')); ?>" aria-current="page">Contact</a>
                                     </li>
                                 </ul>
                             </div>
