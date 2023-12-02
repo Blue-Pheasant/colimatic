@@ -5,10 +5,36 @@ Template Name: Package solutions Template
 get_header();
 ?>
 
+<?php
+global $post;
+$page_slug = $post->post_name;
+$page_title = '';
+
+switch ($page_slug) {
+   case 'colimatic':
+      $page_title = 'Colimatic';
+      break;
+   case 'lee-pack':
+      $page_title = 'Leepack';
+      break;
+   case 'italian-pack':
+      $page_title = 'Italian Pack';
+      break;
+   case 'processing-machine':
+      $page_title = 'Processing Machine';
+      break;
+   case 'inspection':
+      $page_title = 'Inspection';
+      break;
+   default:
+      $page_title = 'packaging-solutions';
+      break;
+}
+?>
 <div class="page-hero">
    <div class="inside-page-hero">
       <div class="inside-page-hero__box">
-         <h1>Packaging Solutions</h1>
+         <h1><?=$page_title?></h1>
       </div>
    </div>
 </div>

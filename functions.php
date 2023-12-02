@@ -224,6 +224,21 @@ function enqueue_custom_css_files() {
         case 'packaging-solutions':
             $css_directory = $public_directory . 'packaging-solutions/css';
             break;
+        case 'colimatic':
+            $css_directory = $public_directory . 'packaging-solutions/css';
+            break;
+        case 'lee-pack':
+            $css_directory = $public_directory . 'packaging-solutions/css';
+            break;
+        case 'italian-pack':
+            $css_directory = $public_directory . 'packaging-solutions/css';
+            break;
+        case 'processing-machine':
+            $css_directory = $public_directory . 'packaging-solutions/css';
+            break;
+        case 'inspection':
+            $css_directory = $public_directory . 'packaging-solutions/css';
+            break;
         default:
             $css_directory = $public_directory . 'home/css';
             break;

@@ -91,7 +91,19 @@
                 case 'sustainable-packaging':
                     $apply_class = $suitainable_packaging;
                     break;
-                case 'packaging-solutions': 
+                case 'colimatic': 
+                    $apply_class = $packing_solutions;
+                    break;
+                case 'italian-pack': 
+                    $apply_class = $packing_solutions;
+                    break;
+                case 'lee-pack': 
+                    $apply_class = $packing_solutions;
+                    break;
+                case 'processing-machine': 
+                    $apply_class = $packing_solutions;
+                    break;
+                case 'inspection': 
                     $apply_class = $packing_solutions;
                     break;
                 default:
@@ -202,19 +214,19 @@
                                         <a href="<?php echo home_url(); ?>">Home</a>
                                     </li>
                                     <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
-                                        <a href="<?php echo get_permalink(get_page_by_path('packaging-solutions')); ?>">Colimatic</a>
+                                        <a href="<?php echo get_permalink(get_page_by_path('colimatic')); ?>">Colimatic</a>
                                     </li>
                                     <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
-                                        <a href="<?php echo get_permalink(get_page_by_path('packaging-solutions')); ?>">Leepack</a>
+                                        <a href="<?php echo get_permalink(get_page_by_path('lee-pack')); ?>">Leepack</a>
                                     </li>
                                     <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
-                                        <a  href="<?php echo get_permalink(get_page_by_path('packaging-solutions')); ?>">Italian pack</a>
+                                        <a  href="<?php echo get_permalink(get_page_by_path('italian-pack')); ?>">Italian pack</a>
                                     </li>
                                     <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
-                                        <a  href="<?php echo get_permalink(get_page_by_path('packaging-solutions')); ?>">Processing Machine</a>
+                                        <a  href="<?php echo get_permalink(get_page_by_path('processing-machine')); ?>">Processing Machine</a>
                                     </li>
                                     <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
-                                        <a  href="<?php echo get_permalink(get_page_by_path('packaging-solutions')); ?>">Inspection</a>
+                                        <a  href="<?php echo get_permalink(get_page_by_path('inspection')); ?>">Inspection</a>
                                     </li>
                                     <li id="menu-item-2975" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2951 current_page_item menu-item-2975">
                                         <a href="<?php echo get_permalink(get_page_by_path('contact')); ?>" aria-current="page">Contact</a>
