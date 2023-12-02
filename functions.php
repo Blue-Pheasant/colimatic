@@ -221,6 +221,9 @@ function enqueue_custom_css_files() {
         case 'contact':
             $css_directory = $public_directory . 'contact/css';
             break;
+        case 'packaging-solutions':
+            $css_directory = $public_directory . 'packaging-solutions/css';
+            break;
         default:
             $css_directory = $public_directory . 'home/css';
             break;
