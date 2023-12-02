@@ -56,7 +56,7 @@ get_header();
                                           <h2 class="has-text-align-center page-subtitle alignfull">PACKAGING SOLUTIONS</h2>
                                           <div class="soluzioni-confezionamento plucks alignfull">
                                              <div class="plucks__item">
-                                                <a href="<?php echo get_permalink(get_page_by_path('home/thera-650')); ?>">
+                                                <a href="<?php echo get_permalink(get_page_by_path('thera-650')); ?>">
                                                    <div class="pluck align--right wp-block-media-text has-media-on-the-right">
                                                       <figure class="pluck__image wp-block-media-text__media">
                                                          <img alt="" data-src="https://www.colimatic.com/wp-content/uploads/2019/05/termoformatrici-768x199.png" class=" ls-is-cached lazyloaded" src="https://www.colimatic.com/wp-content/uploads/2019/05/termoformatrici-768x199.png">
@@ -70,7 +70,7 @@ get_header();
                                                 </a>
                                              </div>
                                              <div class="plucks__item">
-                                                <a href="<?php echo get_permalink(get_page_by_path('home/omega-800')); ?>">
+                                                <a href="<?php echo get_permalink(get_page_by_path('omega-800')); ?>">
                                                    <div class="pluck align--right wp-block-media-text has-media-on-the-right">
                                                       <figure class="pluck__image wp-block-media-text__media">
                                                          <img alt="" data-src="https://www.colimatic.com/wp-content/uploads/2019/01/sistemi-sottovuoto-automatici-768x222.png" class=" ls-is-cached lazyloaded" src="https://www.colimatic.com/wp-content/uploads/2019/01/sistemi-sottovuoto-automatici-768x222.png">
@@ -84,7 +84,7 @@ get_header();
                                                 </a>
                                              </div>
                                              <div class="plucks__item">
-                                                <a href="<?php echo get_permalink(get_page_by_path('home/ready-meals-lasagna')); ?>">
+                                                <a href="<?php echo get_permalink(get_page_by_path('ready-meals-lasagna')); ?>">
                                                    <div class="pluck align--right wp-block-media-text has-media-on-the-right">
                                                       <figure class="pluck__image wp-block-media-text__media">
                                                          <img alt="" data-src="https://www.colimatic.com/wp-content/uploads/2019/05/linee-complete-768x199.png" class=" lazyloaded" src="https://www.colimatic.com/wp-content/uploads/2019/05/linee-complete-768x199.png">
@@ -98,7 +98,7 @@ get_header();
                                                 </a>
                                              </div>
                                              <div class="plucks__item">
-                                                <a href="<?php echo get_permalink(get_page_by_path('home/surgical-set')); ?>">
+                                                <a href="<?php echo get_permalink(get_page_by_path('surgical-set')); ?>">
                                                    <div class="pluck align--right wp-block-media-text has-media-on-the-right">
                                                       <figure class="pluck__image wp-block-media-text__media">
                                                          <img alt="" data-src="https://www.colimatic.com/wp-content/uploads/2019/04/surgical-768x432.png" class=" lazyloaded" src="https://www.colimatic.com/wp-content/uploads/2019/04/surgical-768x432.png">
@@ -112,7 +112,7 @@ get_header();
                                                 </a>
                                              </div>
                                              <div class="plucks__item">
-                                                <a href="<?php echo get_permalink(get_page_by_path('home/tdf-1000')); ?>">
+                                                <a href="<?php echo get_permalink(get_page_by_path('tdf-1000')); ?>">
                                                    <div class="pluck align--right wp-block-media-text has-media-on-the-right">
                                                       <figure class="pluck__image wp-block-media-text__media">
                                                          <img alt="" data-src="https://www.colimatic.com/wp-content/uploads/2019/10/TDF_1000_polaris-2-768x323.png" class=" lazyloaded" src="https://www.colimatic.com/wp-content/uploads/2019/10/TDF_1000_polaris-2-768x323.png">
@@ -126,7 +126,7 @@ get_header();
                                                 </a>
                                              </div>
                                              <div class="plucks__item">
-                                                <a href="<?php echo get_permalink(get_page_by_path('home/sustainable-packaging')); ?>">
+                                                <a href="<?php echo get_permalink(get_page_by_path('sustainable-packaging')); ?>">
                                                    <div class="pluck align--right wp-block-media-text has-media-on-the-right">
                                                       <figure class="pluck__image wp-block-media-text__media">
                                                          <img alt="" data-src="https://www.colimatic.com/wp-content/uploads/2021/09/immagine-copertina-packaging-sostenibile.png" class=" lazyloaded" src="https://www.colimatic.com/wp-content/uploads/2021/09/immagine-copertina-packaging-sostenibile.png">
