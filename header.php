@@ -106,6 +106,9 @@
                 case 'inspection': 
                     $apply_class = $packing_solutions;
                     break;
+                case 'olympus':
+                    $apply_class = $product_class;
+                    break;
                 default:
                     $apply_class = $default_class;
                     break;

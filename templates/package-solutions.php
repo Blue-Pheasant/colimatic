@@ -48,16 +48,16 @@ switch ($page_slug) {
                   <div class="typologies">
                      <div class="grid-list">
                         <div class="grid-list__item">
-                           <a href="<?php echo get_permalink(get_page_by_path('sustainable-packaging')); ?>">
+                           <a href="<?php echo get_permalink(get_page_by_path('olympus')); ?>">
                               <figure>
-                                 <img data-src="https://www.colimatic.com/wp-content/uploads/2021/04/Copertina-packaging-sostenibile.png" class=" ls-is-cached lazyloaded" src="https://www.colimatic.com/wp-content/uploads/2021/04/Copertina-packaging-sostenibile.png">
-                                 <noscript><img src="https://www.colimatic.com/wp-content/uploads/2021/04/Copertina-packaging-sostenibile.png"></noscript>
+                                 <img data-src="<?php echo get_template_directory_uri().'/public/olympus/images/olympus.png'; ?>" class=" ls-is-cached lazyloaded" src="<?php echo get_template_directory_uri().'/public/olympus/images/olympus.png'; ?>">
+                                 <noscript><img src="<?php echo get_template_directory_uri().'/public/olympus/images/olympus.png'; ?>"></noscript>
                               </figure>
                               <div class="arrow-up"></div>
-                              <h3>Sustainable packaging</h3>
+                              <h3>Italian pack</h3>
                            </a>
                         </div>
-                        <div class="grid-list__item">
+                        <!-- <div class="grid-list__item">
                            <a href="<?php echo get_permalink(get_page_by_path('thera-650')); ?>">
                               <figure>
                                  <img data-src="https://www.colimatic.com/wp-content/uploads/2019/05/soluzioni-di-confezionamento-colimatic.png" class=" ls-is-cached lazyloaded" src="https://www.colimatic.com/wp-content/uploads/2019/05/soluzioni-di-confezionamento-colimatic.png">
@@ -136,7 +136,7 @@ switch ($page_slug) {
                               <div class="arrow-up"></div>
                               <h3>Food Line Automation</h3>
                            </a>
-                        </div>
+                        </div> -->
                      </div>
                   </div>
                </div>
