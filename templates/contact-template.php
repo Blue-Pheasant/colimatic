@@ -48,7 +48,7 @@ get_header();
                               <img data-src="https://www.colimatic.com/wp-content/uploads/2019/04/flag-usa-e1555514175956.jpg" class="contact-section__flag lazyloaded" src="https://www.colimatic.com/wp-content/uploads/2019/04/flag-usa-e1555514175956.jpg">
                               <noscript><img class="contact-section__flag" src="https://www.colimatic.com/wp-content/uploads/2019/04/flag-usa-e1555514175956.jpg"/></noscript>
                               <div class="contact-section__text">
-                                 <p><strong>Colimatic USA Inc</strong><br>9272 Jeronimo Road , Suite 115<br>Irvine, CA 92618 USA<br>Phone:+1 -949-600-6440<br>Fax:+1 -949-600-6441<br>e-mail:&nbsp;<a href="mailto:info@colimaticusa.com">info@colimaticusa.com</a><br>web:&nbsp;<a rel="noreferrer noopener" href="http://www.colimaticusa.com/" target="_blank">www.colimaticusa.com</a> </p>
+                                 <p><strong>COMPLEPACK COMPANY LIMITED</strong><br>1426/29/1 Nguyễn Duy Trinh<br>Khu phố Phước Lai, Phường Long Trường<br>Thành phố Thủ Đức, Thành phố Hồ Chí Minh<br>Phone:0357739568<br>e-mail:&nbsp;<a href="mailto:complepack@gmail.com ">complepack@gmail.com </a><br>web:&nbsp;<a rel="noreferrer noopener" href="http://www.colimaticusa.com/" target="_blank">www.colimaticusa.com</a> </p>
                               </div>
                            </div>
                         </div>

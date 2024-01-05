@@ -11,18 +11,18 @@
             <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
             <?php wp_head(); ?>
             <!-- This site is optimized with the Yoast SEO plugin v15.3 - https://yoast.com/wordpress/plugins/seo/ -->
-            <title>Machinery range - Colimatic</title>
+            <title>Complepack</title>
             <meta name="description"
-                content="Colimatic is specialized in the production of automatic packaging lines, filling units, traysealers, vacuum chamber machine, modified atmosphere.a" />
+                content="Complepack is specialized in the production of automatic packaging lines, filling units, traysealers, vacuum chamber machine, modified atmosphere.a" />
             <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
             <link rel="canonical" href="https://www.colimatic.com/en/" />
             <meta property="og:locale" content="en_US" />
             <meta property="og:type" content="website" />
-            <meta property="og:title" content="Machinery range - Colimatic" />
+            <meta property="og:title" content="COMPLEPACK" />
             <meta property="og:description"
-                content="Colimatic is specialized in the production of automatic packaging lines, filling units, traysealers, vacuum chamber machine, modified atmosphere.a" />
+                content="Complepack is specialized in the production of automatic packaging lines, filling units, traysealers, vacuum chamber machine, modified atmosphere.a" />
             <meta property="og:url" content="https://www.colimatic.com/en/" />
-            <meta property="og:site_name" content="Colimatic" />
+            <meta property="og:site_name" content="Complepack" />
             <meta property="article:modified_time" content="2023-05-19T15:13:31+00:00" />
             <meta property="og:image" content="https://www.colimatic.com/wp-content/uploads/2019/04/alimentari.jpg" />
             <meta name="twitter:card" content="summary_large_image" />
@@ -38,14 +38,14 @@
                 document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
             </script>
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="icon" href="https://www.colimatic.com/wp-content/uploads/2018/12/colimatic-favicon-150x150.png"
+            <link rel="icon" href="<?php echo get_template_directory_uri().'/public/logo/icon150x150.jpg' ;?>"
                 sizes="32x32" />
-            <link rel="icon" href="https://www.colimatic.com/wp-content/uploads/2018/12/colimatic-favicon-300x300.png"
+            <link rel="icon" href="<?php echo get_template_directory_uri().'/public/logo/icon300x300.jpg' ;?>"
                 sizes="192x192" />
             <link rel="apple-touch-icon"
-                href="https://www.colimatic.com/wp-content/uploads/2018/12/colimatic-favicon-300x300.png" />
+                href="<?php echo get_template_directory_uri().'/public/logo/icon300x300.jpg' ;?>" />
             <meta name="msapplication-TileImage"
-                content="https://www.colimatic.com/wp-content/uploads/2018/12/colimatic-favicon-300x300.png" />
+                content="<?php echo get_template_directory_uri().'/public/logo/icon300x300.jpg' ;?>" />
         </head>
         <?php
             $default_class = "home page-template page-template-elementor_header_footer page page-id-2932 wp-custom-logo wp-embed-responsive post-image-aligned-center secondary-nav-above-header secondary-nav-aligned-right sticky-menu-fade no-sidebar nav-float-right one-container fluid-header active-footer-widgets-4 header-aligned-left dropdown-hover elementor-default elementor-template-full-width elementor-kit-4215 elementor-page elementor-page-2932 full-width-content";
@@ -91,7 +91,7 @@
                 case 'sustainable-packaging':
                     $apply_class = $suitainable_packaging;
                     break;
-                case 'colimatic': 
+                case 'comple-pack': 
                     $apply_class = $packing_solutions;
                     break;
                 case 'italian-pack': 
@@ -181,24 +181,24 @@
             <header id="masthead" class="site-header" itemtype="https://schema.org/WPHeader" itemscope="">
                 <div class="inside-header grid-container grid-parent">
                     <div class="site-logo">
-                        <a href="<?php echo home_url(); ?>" title="Colimatic" rel="home">
+                        <a href="<?php echo home_url(); ?>" title="Complepack" rel="home">
                             <img 
-                                alt="Colimatic" 
-                                title="Colimatic"
-                                data-srcset="https://www.colimatic.com/wp-content/uploads/2020/11/1Logo-Colimatic-Coligroup-219x66-1.png 1x, https://www.colimatic.com/wp-content/uploads/2018/12/colimatic-retina-logo.png 2x"
+                                alt="Complepack" 
+                                title="Complepack"
+                                data-srcset="<?php echo get_template_directory_uri().'/public/logo/logo.jpg'; ?> 1x, <?php echo get_template_directory_uri().'/public/logo/logox2.jpg'; ?> 2x"
                                 width="219" 
                                 height="66"
-                                data-src="https://www.colimatic.com/wp-content/uploads/2020/11/1Logo-Colimatic-Coligroup-219x66-1.png"
+                                data-src="<?php echo get_template_directory_uri().'/public/logo/logo.jpg'; ?>"
                                 class="header-image is-logo-image lazyloaded"
                                 src="./Contacts - Colimatic automatic packaging lines, traysealers,_files/1Logo-Colimatic-Coligroup-219x66-1.png"
-                                srcset="https://www.colimatic.com/wp-content/uploads/2020/11/1Logo-Colimatic-Coligroup-219x66-1.png 1x, https://www.colimatic.com/wp-content/uploads/2018/12/colimatic-retina-logo.png 2x">
+                                srcset="<?php echo get_template_directory_uri().'/public/logo/logo.jpg'; ?> 1x, <?php echo get_template_directory_uri().'/public/logo/logox2.jpg'; ?> 2x">
                             <noscript>
                                 <img
                                     class="header-image is-logo-image" 
-                                    alt="Colimatic"
-                                    src="https://www.colimatic.com/wp-content/uploads/2020/11/1Logo-Colimatic-Coligroup-219x66-1.png"
-                                    title="Colimatic"
-                                    srcset="https://www.colimatic.com/wp-content/uploads/2020/11/1Logo-Colimatic-Coligroup-219x66-1.png 1x, https://www.colimatic.com/wp-content/uploads/2018/12/colimatic-retina-logo.png 2x"
+                                    alt="Complepack"
+                                    src="<?php echo get_template_directory_uri().'/public/logo/logo.jpg'; ?>"
+                                    title="Complepack"
+                                    srcset="<?php echo get_template_directory_uri().'/public/logo/logo.jpg'; ?> 1x, <?php echo get_template_directory_uri().'/public/logo/logox2.jpg'; ?> 2x"
                                     width="219"
                                     height="66" 
                                 />
@@ -215,9 +215,6 @@
                                     <li id="menu-item-2971"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2971">
                                         <a href="<?php echo home_url(); ?>">Home</a>
-                                    </li>
-                                    <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
-                                        <a href="<?php echo get_permalink(get_page_by_path('colimatic')); ?>">Colimatic</a>
                                     </li>
                                     <li id="menu-item-2972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2972">
                                         <a href="<?php echo get_permalink(get_page_by_path('lee-pack')); ?>">Leepack</a>

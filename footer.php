@@ -150,7 +150,7 @@
     <footer class="site-info" itemtype="https://schema.org/WPFooter" itemscope>
         <div class="inside-site-info grid-container grid-parent">
             <div class="copyright-bar">
-                &copy; 2023 Colimatic | Powered by <a href="https://www.3dee.it/" target="_blank">3dee</a> 
+                &copy; Complepack
             </div>
         </div>
     </footer>
